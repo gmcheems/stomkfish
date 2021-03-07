@@ -636,7 +636,7 @@ var Stockfish = (function() {
           }), a.on("exit", function() {}));
           a.postMessage({
             cmd: "load",
-            urlOrBlob: "https://cdn.jsdelivr.net/gh/gmcheems/stomkfish/stockfish-13.js",
+            urlOrBlob: "https://cdn.jsdelivr.net/gh/gmcheems/stomkfish@9e69319/stockfish-13.js",
             wasmMemory: k,
             wasmModule: ya
           })
