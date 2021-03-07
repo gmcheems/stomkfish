@@ -458,7 +458,7 @@ var Stockfish = (function() {
         21036952: function() {
           throw "Canceled!";
         },
-        21037223: function(a, b) {
+        21811593: function(a, b) {
           setTimeout(function() {
             Qa(a, b)
           }, 0)
